@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\leaflet-project",
-    "\\leaflet-project\\src",
-    "\\leaflet-project\\src\\app",
-    "\\leaflet-project\\src\\app\\here-map",
-    "\\leaflet-project\\src\\app\\nearby",
-    "\\leaflet-project\\src\\app\\product-details",
-    "\\leaflet-project\\src\\app\\product-list",
-    "\\leaflet-project\\src\\app\\shipping",
-    "\\leaflet-project\\src\\app\\top-bar"
+    "\\src",
+    "\\src\\app"
   ],
-  "SelectedNode": "\\leaflet-project\\src\\index.html",
+  "SelectedNode": "\\src\\app\\app.module.ts",
   "PreviewInSolutionExplorer": false
 }
