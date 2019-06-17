@@ -1,1 +1,1 @@
-npm run build && aws s3 sync build/ s3://notes.queue.care --delete
+ng build --prod --aot && aws s3 cp ./dist s3://YOUR-BUCKET-NAME --recursive
