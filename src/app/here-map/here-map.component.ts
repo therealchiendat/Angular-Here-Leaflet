@@ -24,7 +24,7 @@ export class HereMapComponent implements OnInit {
   public height: string;
 
   public constructor(private http: HttpClient) {
-    this.height = window.innerHeight/1.5 + "px";
+    this.height = window.innerHeight-95 + "px";
   }
 
   public ngOnInit() {
@@ -41,7 +41,6 @@ export class HereMapComponent implements OnInit {
   }
 
   public dropMarker(address: string) {
-    //debugger
     this.http.get("https://geocoder.api.here.com/6.2/geocode.json", {
       params: {
         app_id: this.appId,

@@ -1,7 +1,7 @@
 export const products = [
   {
     name: 'Google Home Max',
-    picture: './assets/homemax.jpg',
+    picture: 'homemax',
     price: 799,
     description: [
                   'The best Smart-Speaker out there. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis convallis tellus id interdum velit. Sed id semper risus in hendrerit gravida rutrum quisque non. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Id aliquet risus feugiat in. Eu non diam phasellus vestibulum lorem sed. Nisi quis eleifend quam adipiscing vitae. Ut etiam sit amet nisl purus in mollis. Augue neque gravida in fermentum et sollicitudin. Nunc sed augue lacus viverra. Felis bibendum ut tristique et egestas.',
@@ -11,7 +11,7 @@ export const products = [
   },
   {
     name: 'Google Home Mini',
-    picture: './assets/homemini.jpg',
+    picture: 'homemini',
     price: 699,
     description: ['A also-great speaker. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis convallis tellus id interdum velit. Sed id semper risus in hendrerit gravida rutrum quisque non. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Id aliquet risus feugiat in. Eu non diam phasellus vestibulum lorem sed. Nisi quis eleifend quam adipiscing vitae. Ut etiam sit amet nisl purus in mollis. Augue neque gravida in fermentum et sollicitudin. Nunc sed augue lacus viverra. Felis bibendum ut tristique et egestas.',
                   'Lorem ipsum dolor sit amet consectetur adipiscing.Nulla aliquet enim tortor at auctor urna.At varius vel pharetra vel turpis nunc.Duis at tellus at urna condimentum mattis pellentesque.Vitae sapien pellentesque habitant morbi.Neque viverra justo nec ultrices dui sapien eget mi.Diam volutpat commodo sed egestas egestas fringilla.Adipiscing bibendum est ultricies integer quis auctor elit.Risus at ultrices mi tempus.Erat pellentesque adipiscing commodo elit at.Montes nascetur ridiculus mus mauris vitae.Ultrices gravida dictum fusce ut placerat.Integer feugiat scelerisque varius morbi.',
@@ -20,7 +20,7 @@ export const products = [
   },
   {
     name: 'Google Home',
-    picture: './assets/home.jpg',
+    picture: 'home',
     price: 299,
     description: [
                   'Makes you feel at home. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis convallis tellus id interdum velit. Sed id semper risus in hendrerit gravida rutrum quisque non. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Id aliquet risus feugiat in. Eu non diam phasellus vestibulum lorem sed. Nisi quis eleifend quam adipiscing vitae. Ut etiam sit amet nisl purus in mollis. Augue neque gravida in fermentum et sollicitudin. Nunc sed augue lacus viverra. Felis bibendum ut tristique et egestas.',

@@ -12,7 +12,13 @@ body {
   margin: 0;
 }
 
-
+.container {
+  margin-top: 150px;
+  padding: 25px;
+  z-index: 0;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 router-outlet + * {
   padding: 0 16px;
@@ -101,25 +107,12 @@ label {
     padding-right: 4px;
   }
 
-/* Top Bar */
-
-app-top-bar {
-  width: 100%;
-  height: 68px;
-  background-color: white;
-  padding: 16px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+/* Map */
+.map {
+  margin-top: 45px;
+  z-index: 0;
 }
 
-  app-top-bar h1 {
-    #color: white;
-    margin: 0;
-  }
 
 /* Checkout Cart, Shipping Prices */
 

@@ -21,6 +21,7 @@ import { MaterialModule } from './material-module';
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
+    MaterialModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'nearby', component: NearbyComponent },
@@ -28,7 +29,6 @@ import { MaterialModule } from './material-module';
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
     ]),
-    MaterialModule,
   ],
   declarations: [
     AppComponent,

@@ -7,7 +7,6 @@ import { HereMapComponent } from "../here-map/here-map.component";
   styleUrls: ['./nearby.component.css']
 })
 export class NearbyComponent implements OnInit {
-
   @ViewChild("map", { static: false })
   public mapElement: HereMapComponent;
 
